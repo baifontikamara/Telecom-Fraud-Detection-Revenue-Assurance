@@ -1,6 +1,6 @@
-# Telecom-Fraud-Detection-&-Revenue-Assurance
+# Telecom-Fraud-Detection-&-Revenue-Assurance System
 
-An AI-powered Telecom Fraud Detection and Revenue Assurance System.
+A data-driven system designed to detect financial fraud, uncover revenue leakage, and improve churn prediction using SQL, Python, Machine Learning, and PostgreSQL.
 
 
 # Project Setup & Execution
@@ -11,9 +11,9 @@ prerequisites:
 - **Python Packages**:
     - `pandas`
     - `numpy`
-    -  `psycopg2`
+    - `SQLAlchemy + psycopg2`
     - `scikit-learn`
-    - `lightgbm`
+   
 
 
 ## Overview
