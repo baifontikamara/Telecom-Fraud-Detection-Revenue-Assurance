@@ -20,10 +20,12 @@ prerequisites:
 
 This project implements a fraud detection and revenue assurance system for telecom companies using AI, machine learning, and data analytics. It consists of two main components:
 
-The system is designed to identify fraudulent activities, ensure billing accuracy, and provide actionable insights for telecom companies.
-
 1. **SQL-based Fraud Detection and Revenue Assurance Rules**: Implemented in `Docker_Postgre_SQLsession.sql`.
 2. **Data Analytics and Model Training**: Implemented in `data_analytics_and_model_training.ipynb`.
+
+
+The system is designed to identify fraudulent activities, ensure billing accuracy, and provide actionable insights for telecom companies.
+
 
 ---
 
