@@ -1,12 +1,9 @@
-# Telecom-Fraud-Detection-Revenue-Assurance
+# Telecom-Fraud-Detection-&-Revenue-Assurance
 
 An AI-powered Telecom Fraud Detection and Revenue Assurance System.
 
-## Overview
 
-This project implements a fraud detection and revenue assurance system for telecom companies using AI, machine learning, and data analytics. It consists of two main components:
-
-# Project Setupp & Execution
+# Project Setup & Execution
 prerequisites:
 - **Docker**: To run the system.
 - **PostgreSQL**: To store and manage data.
@@ -18,10 +15,15 @@ prerequisites:
     - `scikit-learn`
     - `lightgbm`
 
-1. **SQL-based Fraud Detection and Revenue Assurance Rules**: Implemented in `Docker_Postgre_SQLsession.sql`.
-2. **Data Analytics and Model Training**: Implemented in `data_analytics_and_model_training.ipynb`.
+
+## Overview
+
+This project implements a fraud detection and revenue assurance system for telecom companies using AI, machine learning, and data analytics. It consists of two main components:
 
 The system is designed to identify fraudulent activities, ensure billing accuracy, and provide actionable insights for telecom companies.
+
+1. **SQL-based Fraud Detection and Revenue Assurance Rules**: Implemented in `Docker_Postgre_SQLsession.sql`.
+2. **Data Analytics and Model Training**: Implemented in `data_analytics_and_model_training.ipynb`.
 
 ---
 
