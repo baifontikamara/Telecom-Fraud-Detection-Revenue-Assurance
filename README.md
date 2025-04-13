@@ -13,14 +13,22 @@ prerequisites:
     - `numpy`
     - `SQLAlchemy + psycopg2`
     - `scikit-learn`
-   
 
+## Project Data Sources
+
+This project uses publicly available datasets:
+
+- [Telco Customer Churn Dataset](https://www.kaggle.com/datasets/anshulmehtakaggl/cdrcall-details-record-predict-telco-churn)  
+  Source of telecom call and churn data used for revenue assurance checks.
+
+- [Synthetic Financial Transactions Dataset](https://www.kaggle.com/datasets/ealaxi/paysim1)  
+  Source of mobile money transaction logs used for fraud detection modeling.
 
 ## Overview
 
 This project implements a fraud detection and revenue assurance system for telecom companies using AI, machine learning, and data analytics. It consists of two main components:
 
-1. **SQL-based Fraud Detection and Revenue Assurance Rules**: Implemented in `Docker_Postgre_SQLsession.sql`.
+1. **SQL-based Fraud Detection and Revenue Assurance Rules**: Implemented in `Docker_Postgres_SQLsession.sql`.
 2. **Data Analytics and Model Training**: Implemented in `data_analytics_and_model_training.ipynb`.
 
 
@@ -29,7 +37,7 @@ The system is designed to identify fraudulent activities, ensure billing accurac
 
 ---
 
-## 1. SQL-Based Fraud Detection and Revenue Assurance (`Docker_Postgre_SQLsession.sql`)
+## 1. SQL-Based Fraud Detection and Revenue Assurance (`Docker_Postgres_SQLsession.sql`)
 
 This file contains SQL queries and views to detect fraud and ensure revenue assurance. Below is a breakdown of its functionality:
 
@@ -110,6 +118,7 @@ This Jupyter Notebook handles data preprocessing, machine learning model trainin
 ## Purpose of the Project
 
 The primary goal of this project is to help telecom companies:
+
 - Detect and prevent fraudulent activities in financial transactions.
 - Ensure accurate billing and minimize revenue leakage.
 - Provide actionable insights to improve customer satisfaction and reduce churn.
@@ -125,11 +134,12 @@ By combining SQL-based rules with machine learning, the system offers a robust a
 - Real-time monitoring capabilities
 
 **Revenue Protection**
+
 - Accurate billing verification
 - Detection of charging anomalies
 - Identification of revenue leakage
 
-**Customer Experience**
+## Customer Experience
 - Prevention of overcharging
 - Early churn risk detection
 - Service quality monitoring
